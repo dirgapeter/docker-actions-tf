@@ -1,0 +1,21 @@
+# Terraform files
+**/.terraform/
+*.tfstate*
+*.tfvars*
+backend.tf
+
+# OS X files
+.history
+.DS_Store
+
+# Test
+.gradle
+build
+
+# Editors
+.idea
+.vscode
+
+# tf-eks output
+config-map-aws-auth_*
+kubeconfig_*
